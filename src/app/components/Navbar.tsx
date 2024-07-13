@@ -37,9 +37,13 @@ export default function navbar({
             </a>
           </li>
           <li className="p-5 xl:p-8">
-            <a href="/About">
+            <button
+              onClick={() => {
+                scrollToSection(footRef);
+              }}
+            >
               <span className="text-white">About</span>
-            </a>
+            </button>
           </li>
           <li className="p-5 xl:p-8">
             <button
