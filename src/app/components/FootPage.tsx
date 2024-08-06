@@ -11,7 +11,7 @@ export default function FootPage() {
         <div className="w-full flex justify-center">
           <hr className="border border-dark-3 w-[80vw]" />
         </div>
-        <div className="py-[3vh] text-dark-5">@2024, MingPV</div>
+        <div className="py-[3vh] text-dark-5">@ 2024, MingPV</div>
       </div>
     </>
   );
