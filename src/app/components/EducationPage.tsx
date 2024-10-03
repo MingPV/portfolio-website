@@ -21,7 +21,7 @@ export default function EducationPage() {
                 <div className="flex flex-row w-full">
                   <div className="flex-1 mb-14  flex flex-col items-end">
                     <div className="my-2 mr-12 text-lg text-dark-6">
-                      Bachelor's degree
+                      Bachelor&apos;s degree
                     </div>
                     <div className="my-2 mr-12 text-base text-dark-6">
                       Chulalongkorn University

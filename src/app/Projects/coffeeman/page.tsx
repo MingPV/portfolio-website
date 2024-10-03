@@ -18,10 +18,10 @@ export default function page({}: Props) {
           <div className="text-white text-3xl pt-20">Coffee Man</div>
           <div className="text-white text-start text-md font-extralight w-full">
             Here is a project that my friend and I are working on together. The
-            game is written in Java, and I think it's quite fun to play.We made
-            this game because it's based on the games I used to enjoy, and it's
-            something I've always wished to play. Therefore, We took the
-            initiative to develop it on our own.
+            game is written in Java, and I think it&apos;s quite fun to play.We
+            made this game because it&apos;s based on the games I used to enjoy,
+            and it&apos;s something I&apos;ve always wished to play. Therefore,
+            We took the initiative to develop it on our own.
           </div>
           <img
             src={"/images/coffeeman5.png"}
@@ -29,11 +29,12 @@ export default function page({}: Props) {
             className="w-[35vw]"
           />
           <div className="text-white text-start text-md font-extralight w-full">
-            Enter Player's name and select the character, then click the button
-            PLAY use 'A', 'S', 'D', 'W' to control the direction of the
-            character. When you move to area that has monsters, the monster will
-            approach you and attack. You need to battle with the monster by
-            pressing 'K'.
+            Enter Player&apos;s name and select the character, then click the
+            button PLAY use &apos;A&apos;, &apos;S&apos;, &apos;D&apos;,
+            &apos;W&apos; to control the direction of the character. When you
+            move to area that has monsters, the monster will approach you and
+            attack. You need to battle with the monster by pressing
+            &apos;K&apos;.
           </div>
           <img
             src={"/images/coffeeman1.png"}

@@ -16,9 +16,9 @@ export default function ContactPage() {
               Get in touch
             </div>
             <div className="text-dark-5 text-sm mb-[3vh] text-center w-[50vw]">
-              I'm always excited to make new connections, hear about new ideas,
-              and explore potential opportunities, so please feel free to reach
-              out to me at
+              I&apos;m always excited to make new connections, hear about new
+              ideas, and explore potential opportunities, so please feel free to
+              reach out to me at
             </div>
             <div>
               <CopyButton />
@@ -39,7 +39,7 @@ export default function ContactPage() {
           <div className="flex-1 h-[30vh] flex flex-col">
             <div className="px-[5vw] text-dark-6">About me</div>
             <div className="font-light px-[5vw] text-dark-5 mt-2">
-              I'm Ming, a computer engineering student.
+              I&apos;m Ming, a computer engineering student.
             </div>
             <div className="px-[5vw] mt-2">
               <span>

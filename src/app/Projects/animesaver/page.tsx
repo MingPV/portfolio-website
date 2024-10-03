@@ -18,7 +18,7 @@ export default function page({}: Props) {
           <div className="text-white text-3xl pt-20">Anime Saver</div>
           <div className="text-white text-start text-md font-extralight w-full">
             This is a website where we can save anime that we want to watch but
-            haven't had time for yet. We can categorize the anime as well.
+            haven&apos;t had time for yet. We can categorize the anime as well.
             Additionally, we can view statistics on the types of anime we like
             to watch, showing us which genres we tend to watch the most.
           </div>
@@ -28,10 +28,10 @@ export default function page({}: Props) {
             className="w-[35vw]"
           />
           <div className="text-white text-start text-md font-extralight w-full">
-            When you've entered the name of your anime, press the save button. A
-            modal will pop up where you can enter a little message for you to
-            read later. You can also select categories to classify and create
-            your own statistics.
+            When you&apos;ve entered the name of your anime, press the save
+            button. A modal will pop up where you can enter a little message for
+            you to read later. You can also select categories to classify and
+            create your own statistics.
           </div>
           <img
             src={"/images/animesaver2.png"}
@@ -48,8 +48,8 @@ export default function page({}: Props) {
             className="w-[35vw]"
           />
           <div className="text-white text-start text-md font-extralight w-full">
-            This is an example of your saved anime and your and others' viewing
-            statistics.
+            This is an example of your saved anime and your and others&apos;
+            viewing statistics.
           </div>
           <img
             src={"/images/animesaver4.png"}

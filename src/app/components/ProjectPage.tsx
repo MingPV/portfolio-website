@@ -12,7 +12,7 @@ export default function ProjectPage() {
             <hr className="border border-dark-3 w-[80vw]" />
           </div>
           <div className="w-full text-center text-dark-6 text-3xl mt-[15vh]">
-            Successful Projects I'm Proud Of
+            Successful Projects I&apos;m Proud Of
           </div>
           <div className="w-full text-center text-dark-5 text-md mt-[4vh] mb-[5vh]">
             No better way to get experience than real-life projects
@@ -35,8 +35,8 @@ export default function ProjectPage() {
                     </div>
                     <div className=" text-dark-6 text-start">
                       Here is a project that my friend and I are working on
-                      together. The game is written in Java, and I think it's
-                      quite fun to play.
+                      together. The game is written in Java, and I think
+                      it&apos;s quite fun to play.
                     </div>
                     <div className="mt-4 flex flex-row gap-3">
                       <a href="/Projects/coffeeman">
@@ -68,10 +68,10 @@ export default function ProjectPage() {
                     <div className="my-2 text-2xl text-dark-6">Anime saver</div>
                     <div className=" text-dark-6 text-start">
                       This is a website where we can save anime that we want to
-                      watch but haven't had time for yet. We can categorize the
-                      anime as well. Additionally, we can view statistics on the
-                      types of anime we like to watch, showing us which genres
-                      we tend to watch the most.
+                      watch but haven&apos;t had time for yet. We can categorize
+                      the anime as well. Additionally, we can view statistics on
+                      the types of anime we like to watch, showing us which
+                      genres we tend to watch the most.
                     </div>
                     <div className="mt-4 flex flex-row gap-3">
                       <a href="/Projects/animesaver">
@@ -170,8 +170,9 @@ export default function ProjectPage() {
                       mind-space-plus
                     </div>
                     <div className=" text-dark-6 text-start">
-                      This is a component of the university's mental health care
-                      website, serving as a basic user guide for the website.
+                      This is a component of the university&apos;s mental health
+                      care website, serving as a basic user guide for the
+                      website.
                     </div>
                     <div className="mt-4 flex flex-row gap-3">
                       {/* <a href="/Projects/mindspace">
