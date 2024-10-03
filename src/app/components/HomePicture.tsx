@@ -5,7 +5,7 @@ import "react-image-shadow/assets/index.css";
 function HomePicture() {
   return (
     <div>
-      <ImageShadow src="/images/catcoding.png" width={450} />
+      <ImageShadow src="/images/mingming.jpg" width={350} />
     </div>
   );
 }

@@ -11,10 +11,10 @@ export default function ProjectPage() {
           <div className="w-full flex justify-center">
             <hr className="border border-dark-3 w-[80vw]" />
           </div>
-          <div className="w-full text-center text-dark-6 text-5xl mt-[15vh]">
+          <div className="w-full text-center text-dark-6 text-3xl mt-[15vh]">
             Successful Projects I'm Proud Of
           </div>
-          <div className="w-full text-center text-dark-5 text-lg mt-[4vh] mb-[5vh]">
+          <div className="w-full text-center text-dark-5 text-md mt-[4vh] mb-[5vh]">
             No better way to get experience than real-life projects
           </div>
 
@@ -50,6 +50,11 @@ export default function ProjectPage() {
                         </button>
                       </a>
                     </div>
+                    <div className="flex flex-row mt-4">
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        Java
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -79,6 +84,17 @@ export default function ProjectPage() {
                           CHECK CODE
                         </button>
                       </a>
+                    </div>
+                    <div className="flex flex-row mt-4 gap-2">
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        React
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        TypeScript
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        MongoDB
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -120,6 +136,26 @@ export default function ProjectPage() {
                         </button>
                       </a>
                     </div>
+                    <div className="flex flex-row mt-4 gap-2">
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        HTML
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        CSS
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        JavaScript
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        Jquery
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        PHP
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        MySQL
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -143,6 +179,17 @@ export default function ProjectPage() {
                           MORE DETAILS
                         </button>
                       </a> */}
+                    </div>
+                    <div className="flex flex-row mt-4 gap-2">
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        Nextjs
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        TypeScript
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        Tailwind
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -176,7 +223,7 @@ export default function ProjectPage() {
                       fundamentals.
                     </div>
                     <div className="mt-4 flex flex-row gap-3">
-                      <a href="/Projects/uno">
+                      <a href="/files/uno.pdf" download>
                         <button className="bg-dark-2 hover:bg-dark-4 px-4 py-2 rounded-md text-dark-6 font-light text-xs">
                           MORE DETAILS
                         </button>
@@ -186,6 +233,20 @@ export default function ProjectPage() {
                           CHECK CODE
                         </button>
                       </a>
+                    </div>
+                    <div className="flex flex-row mt-4 gap-2">
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        HTML
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        CSS
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        JavaScript
+                      </div>
+                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
+                        MongoDB
+                      </div>
                     </div>
                   </div>
                 </div>

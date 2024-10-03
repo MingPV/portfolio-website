@@ -35,7 +35,7 @@ export default function TextHome({}: Props) {
           >
             {" "}
             I'm studying at Chulalongkorn University and I'm interested in Web
-            Development and Game Development{" "}
+            Development and Software Development{" "}
           </p>
           <div style={{ paddingLeft: 10 }}>
             <span style={{ paddingLeft: 5 }}>
