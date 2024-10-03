@@ -29,6 +29,9 @@ const config: Config = {
           7:'#F1F1F1',
         }
       },
+      screens: {
+        'sm-screen': '850px', // Add this custom breakpoint
+      },
     },
   },
   plugins: [],

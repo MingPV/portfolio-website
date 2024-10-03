@@ -12,7 +12,7 @@ export default function HomePage() {
           <div className="mt-24">
             <TextHome />
           </div>
-          <div className="ml-36">
+          <div className="ml-36 hidden sm-screen:block">
             <HomePicture />
           </div>
         </div>
