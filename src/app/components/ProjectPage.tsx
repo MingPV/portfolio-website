@@ -33,12 +33,12 @@ export default function ProjectPage() {
                     <div className="my-2 text-2xl text-dark-6">
                       Coffee Man Game
                     </div>
-                    <div className=" text-dark-6 text-start">
+                    <div className=" text-dark-6 text-start hidden sm-screen:block">
                       Here is a project that my friend and I are working on
                       together. The game is written in Java, and I think
                       it&apos;s quite fun to play.
                     </div>
-                    <div className="mt-4 flex flex-row gap-3">
+                    <div className="mt-4 flex flex-row flex-wrap gap-3">
                       <a href="/Projects/coffeeman">
                         <button className="bg-dark-2 hover:bg-dark-4 px-4 py-2 rounded-md text-dark-6 font-light text-xs">
                           MORE DETAILS
@@ -50,7 +50,7 @@ export default function ProjectPage() {
                         </button>
                       </a>
                     </div>
-                    <div className="flex flex-row mt-4">
+                    <div className="flex flex-row flex-wrap mt-4">
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
                         Java
                       </div>
@@ -66,14 +66,14 @@ export default function ProjectPage() {
                 <div className="bg-dark-1 border border-dark-4 h-auto w-[40vw] relative right-[10vw] rounded-xl ">
                   <div className=" h-full my-[4vh] mx-[2vw] flex flex-col">
                     <div className="my-2 text-2xl text-dark-6">Anime saver</div>
-                    <div className=" text-dark-6 text-start">
+                    <div className=" text-dark-6 text-start hidden sm-screen:block">
                       This is a website where we can save anime that we want to
                       watch but haven&apos;t had time for yet. We can categorize
                       the anime as well. Additionally, we can view statistics on
                       the types of anime we like to watch, showing us which
                       genres we tend to watch the most.
                     </div>
-                    <div className="mt-4 flex flex-row gap-3">
+                    <div className="mt-4 flex flex-row flex-wrap gap-3">
                       <a href="/Projects/animesaver">
                         <button className="bg-dark-2 hover:bg-dark-4 px-4 py-2 rounded-md text-dark-6 font-light text-xs">
                           MORE DETAILS
@@ -85,7 +85,7 @@ export default function ProjectPage() {
                         </button>
                       </a>
                     </div>
-                    <div className="flex flex-row mt-4 gap-2">
+                    <div className="flex flex-row flex-wrap mt-4 gap-2">
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
                         React
                       </div>
@@ -123,20 +123,20 @@ export default function ProjectPage() {
                     <div className="my-2 text-2xl text-dark-6">
                       mycourseville-cvtqf7
                     </div>
-                    <div className=" text-dark-6 text-start">
+                    <div className=" text-dark-6 text-start hidden sm-screen:block">
                       Here is a part of the university website I worked on
                       during the summer. The section I developed is for teachers
                       to evaluate courses from the previous semester. It is
                       integrated with a database.
                     </div>
-                    <div className="mt-4 flex flex-row gap-3">
+                    <div className="mt-4 flex flex-row flex-wrap gap-3">
                       <a href="/Projects/mycourseville">
                         <button className="bg-dark-2 hover:bg-dark-4 px-4 py-2 rounded-md text-dark-6 font-light text-xs">
                           MORE DETAILS
                         </button>
                       </a>
                     </div>
-                    <div className="flex flex-row mt-4 gap-2">
+                    <div className="flex flex-row flex-wrap mt-4 gap-2">
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
                         HTML
                       </div>
@@ -169,7 +169,7 @@ export default function ProjectPage() {
                     <div className="my-2 text-2xl text-dark-6">
                       mind-space-plus
                     </div>
-                    <div className=" text-dark-6 text-start">
+                    <div className=" text-dark-6 text-start hidden sm-screen:block">
                       This is a component of the university&apos;s mental health
                       care website, serving as a basic user guide for the
                       website.
@@ -181,7 +181,7 @@ export default function ProjectPage() {
                         </button>
                       </a> */}
                     </div>
-                    <div className="flex flex-row mt-4 gap-2">
+                    <div className="flex flex-row flex-wrap mt-4 gap-2">
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
                         Nextjs
                       </div>
@@ -217,13 +217,13 @@ export default function ProjectPage() {
                 <div className="bg-dark-1 border border-dark-4  h-auto w-[40vw] relative left-[10vw] rounded-xl ">
                   <div className=" h-full my-[4vh] mx-[2vw] flex flex-col">
                     <div className="my-2 text-2xl text-dark-6">UNO Website</div>
-                    <div className=" text-dark-6 text-start">
+                    <div className=" text-dark-6 text-start hidden sm-screen:block">
                       Here is the web game project that I worked on with my
                       friends. We only used HTML, CSS, and JavaScript, and
                       hardly any frameworks, allowing us to fully utilize the
                       fundamentals.
                     </div>
-                    <div className="mt-4 flex flex-row gap-3">
+                    <div className="mt-4 flex flex-row flex-wrap gap-3">
                       <a href="/files/uno.pdf" download>
                         <button className="bg-dark-2 hover:bg-dark-4 px-4 py-2 rounded-md text-dark-6 font-light text-xs">
                           MORE DETAILS
@@ -235,7 +235,7 @@ export default function ProjectPage() {
                         </button>
                       </a>
                     </div>
-                    <div className="flex flex-row mt-4 gap-2">
+                    <div className="flex flex-row flex-wrap mt-4 gap-2">
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
                         HTML
                       </div>

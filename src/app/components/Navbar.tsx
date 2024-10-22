@@ -20,7 +20,7 @@ export default function navbar({
   };
 
   return (
-    <div className="flex items-center justify-center h-16 fixed w-[100vw] bg-opacity-95 bg-dark-1 z-50">
+    <div className="flex items-center justify-center h-16 fixed w-[100vw] bg-opacity-95 bg-dark-1 z-50 gap-8 sm-screen:gap-0 ">
       <a href="/" className="flex items-center justify-center">
         {/* <img
             className="h-16"
@@ -30,7 +30,7 @@ export default function navbar({
         <span className="ml-4 uppercase font-black text-white">MingPV</span>
       </a>
       <nav className="contents font-light text-base lg:text-sm">
-        <ul className=" flex items-center">
+        <ul className="  items-center hidden sm-screen:flex">
           <li className="p-5 xl:p-8 active">
             <a href="/">
               <span className="text-white">Home</span>
