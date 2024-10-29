@@ -23,13 +23,18 @@ export default function ContactPage() {
             <div>
               <CopyButton />
             </div>
-            <div>
+            <div className="flex flex-row gap-4">
               <a
                 href="mailto:jeung.pavee@gmail.com"
                 target="_blank"
                 className="bg-dark-2 hover:bg-dark-4 px-6 py-3 rounded-md text-dark-6 font-light text-sm"
               >
-                Say Hello -{">"}
+                Say Hello
+              </a>
+              <a href="/files/resume.pdf" download>
+                <button className="bg-dark-3 hover:bg-dark-4 px-6 py-3 rounded-md text-dark-6 font-light text-sm">
+                  Get Resume
+                </button>
               </a>
             </div>
           </div>
