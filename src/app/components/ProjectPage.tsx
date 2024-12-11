@@ -167,36 +167,42 @@ export default function ProjectPage() {
                 <div className="bg-dark-1 border border-dark-4  h-auto w-[40vw] relative right-[10vw] rounded-xl ">
                   <div className=" h-full my-[4vh] mx-[2vw] flex flex-col">
                     <div className="my-2 text-2xl text-dark-6">
-                      mind-space-plus
+                      Chess Detection with YOLOv8
                     </div>
                     <div className=" text-dark-6 text-start hidden sm-screen:block">
-                      This is a component of the university&apos;s mental health
-                      care website, serving as a basic user guide for the
-                      website.
+                      Chess piece detection with YOLOv8 involves training the
+                      model on annotated images of chessboards to identify and
+                      classify pieces (e.g., king, queen). After training, the
+                      model can detect pieces in new images or video streams
+                      with high accuracy. This is useful for applications like
+                      real-time game analysis and interactive chess tools.
                     </div>
                     <div className="mt-4 flex flex-row gap-3">
-                      {/* <a href="/Projects/mindspace">
+                      <a href="/Projects/chessDetection">
                         <button className="bg-dark-2 hover:bg-dark-4 px-4 py-2 rounded-md text-dark-6 font-light text-xs">
                           MORE DETAILS
                         </button>
-                      </a> */}
+                      </a>
+                      <a href="/files/chessDetection.ipynb">
+                        <button className="bg-dark-3 hover:bg-dark-4 px-4 py-2 rounded-md text-dark-6 font-light text-xs">
+                          CHECK CODE
+                        </button>
+                      </a>
                     </div>
+
                     <div className="flex flex-row flex-wrap mt-4 gap-2">
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
-                        Nextjs
+                        Python
                       </div>
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
-                        TypeScript
-                      </div>
-                      <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
-                        Tailwind
+                        YOLOv8
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="">
                   <img
-                    src={"/images/Work1.png"}
+                    src={"/images/chess1.png"}
                     alt="Description"
                     className="w-[35vw]"
                   />
