@@ -215,27 +215,26 @@ export default function ProjectPage() {
               <div className="flex flex-row items-center">
                 <div className="">
                   <img
-                    src={"/images/Game2.png"}
+                    src={"/images/mingchat5.png"}
                     alt="Description"
                     className="w-[35vw]"
                   />
                 </div>
                 <div className="bg-dark-1 border border-dark-4  h-auto w-[40vw] relative left-[10vw] rounded-xl ">
                   <div className=" h-full my-[4vh] mx-[2vw] flex flex-col">
-                    <div className="my-2 text-2xl text-dark-6">UNO Website</div>
+                    <div className="my-2 text-2xl text-dark-6">Web Chat</div>
                     <div className=" text-dark-6 text-start hidden sm-screen:block">
-                      Here is the web game project that I worked on with my
-                      friends. We only used HTML, CSS, and JavaScript, and
-                      hardly any frameworks, allowing us to fully utilize the
-                      fundamentals.
+                      This website is a sleek and minimalistic real-time chat
+                      application designed for seamless communication. Built
+                      with Next.js and powered by Supabase
                     </div>
                     <div className="mt-4 flex flex-row flex-wrap gap-3">
-                      <a href="/files/uno.pdf" download>
+                      <a href="/Projects/mingchat">
                         <button className="bg-dark-2 hover:bg-dark-4 px-4 py-2 rounded-md text-dark-6 font-light text-xs">
                           MORE DETAILS
                         </button>
                       </a>
-                      <a href="https://github.com/MingPV/FinalProject">
+                      <a href="https://github.com/MingPV/MingChat">
                         <button className="bg-dark-3 hover:bg-dark-4 px-4 py-2 rounded-md text-dark-6 font-light text-xs">
                           CHECK CODE
                         </button>
@@ -243,16 +242,16 @@ export default function ProjectPage() {
                     </div>
                     <div className="flex flex-row flex-wrap mt-4 gap-2">
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
-                        HTML
+                        Next.js
                       </div>
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
-                        CSS
+                        Tailwind
                       </div>
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
-                        JavaScript
+                        PostgreSQL
                       </div>
                       <div className="text-xs border rounded-lg px-3 py-1 bg-cyan-700 text-white">
-                        MongoDB
+                        Supabase
                       </div>
                     </div>
                   </div>
