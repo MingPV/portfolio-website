@@ -44,7 +44,7 @@ export default function page({}: Props) {
             <div>
               With a modern tech stack, including PostgreSQL for data storage
               and Tailwind CSS for a polished design, this platform is optimized
-              for speed, reliability, and user-friendly interaction. It's a
+              for speed, reliability, and user-friendly interaction. It&apos;s a
               simple yet powerful solution for staying connected.
             </div>
           </div>
